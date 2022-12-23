@@ -54,20 +54,20 @@ if (weatherData.ready) {
     return (
      <div>   
           <form onSubmit={handleSubmit}>
-          <div className="row">
-            <div className="col-9">
+          <div className="row d-flex justify-content-sm-end p-2">
+            <div className="col-4 ">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="Enter a city..."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-3">
+            <div className="col-sm-1">
               <input
                 type="submit"
-                value="Search"
+                value="🔍" 
                 className="btn btn-primary w-100"
               />
             </div>
