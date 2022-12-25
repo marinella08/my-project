@@ -20,4 +20,9 @@
 .WeatherForecast-temperatures {
     margin-left: 1px !important;
     margin-bottom: 10px;
+    
+}
+
+.WeatherForecast {
+    margin-top: -10px;
 }
