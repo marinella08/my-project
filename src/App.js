@@ -8,7 +8,10 @@ function App() {
       <div className="container">
       <Weather defaultCity="Lisboa"/>
 
-      <footer className='codeBy'>
+     
+     
+      </div>
+      <footer className='codeBy '>
           This project was coded by{" "}
           <a
             href="https://graceful-cobbler-3beef8.netlify.app/"
@@ -34,8 +37,6 @@ function App() {
             hosted on Netlify
           </a>
         </footer>
-     
-      </div>
     </div>
   );
 }

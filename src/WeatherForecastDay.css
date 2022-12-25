@@ -1,0 +1,23 @@
+.WeatherForecast-temperatures, .WeatherForecast-day {
+
+    background-color: #027ee4;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.iconForecast {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.WeatherForecast-temperatures {
+    margin-left: 1px !important;
+    margin-bottom: 10px;
+}
